@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Todo App</title>
 </head>
-<body>
-    <h1>Simple Todo List App</h1>
-    <input type="text" id="todo-input" placeholder="Enter a todo and press add or enter">
 
-    <button id="add-btn">Add</button>
-    <ul id="todo-list"></ul>
-    
+<body>
+
+    <div class="container">
+
+        <h1>Simple Todo List App</h1>
+
+        <p>Welcome to Todo List. Double-click any task to edit it.</p>
+
+        <div class="input-group">
+            <input type="text" id="todo-input" placeholder="Enter a todo and press Enter">
+            <button id="add-btn">Add</button>
+        </div>
+
+        <ul id="todo-list"></ul>
+
+    </div>
+
+    <script src="app.js"></script>
+
 </body>
+
 </html>
